@@ -10,15 +10,15 @@
 
     p.mb-5 Se definen como todo aquel tipo de inversión en el que incurren las organizaciones para mantener sus proyectos y sobre la que se espera obtener algún tipo de estipendio a corto plazo, dichas operaciones se ejecutan mediante la adquisición de materias primas que serán transformadas y almacenadas como inventario, el cual será posteriormente puesto a la venta. 
 
-    .row.justify-content-center.mb-5
-      .col-lg-5.col-10
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-lg-5.col-12
         img.mb-lg-0.mb-3(src="@/assets/curso/tema2/img01.png")
       .col-lg-5.col-12.d-flex.p-0
-        .fondo1.w-100.px-4.py-4
+        .fondo1.w-100.px-lg-4.px-0.py-lg-4.py-0
           div.p-0.px-3
             p.mb-0 Teniendo esto en cuenta, dichos costos tienen una relación directa con el sentido operacional de cada organización, por lo que representan un elemento importante a considerar en la toma de decisiones estratégicas para cada compañía. Su tratamiento tanto organizacional como económico y financiero es tan importante en la estructura del desarrollo económico de las empresas que las áreas de estudio tanto contables como administrativas que cada vez buscan diseñar sistemas más eficientes para su medición y clasificación, de modo que estas se acoplen armónicamente a las necesidades de cada modelo de negocio.
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12.p-3.px-4(style="background-color:#e1e4a8")
         p.mb-0 En este sentido, es importante establecer condiciones clave que los separe de los gastos, puesto que al hablar de costos se hace referencia a todo aquel intercambio de recursos con el que se obtienen insumos que puedan ser transformados en nuevos materiales que serán puestos a la venta y de esta forma, obtener nuevos recursos. 
     p.mb-0 Los gastos, por otro lado, representan retribuciones que concede la empresa como compensación por un beneficio previamente recibido como, por ejemplo, el pago de arriendo por el uso de un local comercial o el pago de servicios públicos y los salarios, entre otros.
@@ -30,15 +30,15 @@
 
     p.mb-5 Bajo el entendido de que los costos son todos aquellos insumos necesarios para producir bienes o servicios es pertinente entender la naturaleza de los elementos que los componen, puesto que cualquier producto terminado requiere para su elaboración 3 tipos de insumos, los cuales puede ver a continuación:     
 
-    div.px-4(style="background-color:#efe0e4")
+    div.px-4(style="background-color:#efe0e4" data-aos="fade-left")
       .row.mb-5.py-4
         .col-lg-1.col-12.d-flex.justify-content-center
           img.mb-lg-0.mb-3(style="width:82px" src="@/assets/curso/tema2/img02.svg")
         .col-lg-11.col-12.d-flex.align-items-center
           p.mb-0 <b style="font-size:18px; color:#A3314F">Materias primas:</b> están compuestas por todos aquellos <b style="color:#A3314F">insumos tangibles</b> que pueden ser transformados en los procesos de producción, por tanto, comprenden todos aquellos materiales que se emplean en la elaboración del producto y según su importancia en dicho proceso pueden clasificarse como materias primas directas o indirectas.
 
-    .row.mb-5
-      .col-lg-6.col-8
+    .row.mb-5(data-aos="fade-right")
+      .col-lg-6.col-12
         img.mb-lg-0.mb-3(src="@/assets/curso/tema2/img03.png")
       .col-lg-6.col-12
         p.mb-4 En este sentido, la materia prima directa se define de acuerdo con dos conceptos básicos, la materialidad y su importancia relativa, así, la materialidad se refiere al costo en relación a los materiales empleados en el proceso de producción o su importancia en la elaboración del producto final. En términos prácticos se podría referir, por ejemplo, a la tela en el proceso de fabricación de prendas de vestir, donde esta representa no solo el material de mayor valor, sino que también el elemento que está más presente en el producto final.
@@ -46,43 +46,43 @@
 
     p.mb-5 Así pues, al hacer referencia a materias primas es importante resaltar todos los elementos que pueden adicionarse al costo de las materias primas, entre los cuales se pueden identificar, no solo la compra misma de los insumos, sino también se deben considerar todos aquellos relacionados con el almacenaje requerido para cada uno acorde a su naturaleza, a los costos asociados a la administración y manejo de dichos insumos o los faltantes, que ocurren con la pérdida, por robo, accidentes o deterioro de los mismos.
 
-    div.px-4.mb-5(style="background-color:#ffefc8")
+    div.px-4.mb-5(style="background-color:#ffefc8" data-aos="fade-left")
       .row.mb-5.py-4
         .col-lg-1.col-12.d-flex.justify-content-center
           img.mb-lg-0.mb-3(style="width:82px" src="@/assets/curso/tema2/img04.svg")
         .col-lg-11.col-12.d-flex.align-items-center
           p.mb-0 <b style="font-size:18px; color:#A3314F">Mano de obra:</b>  representa el trabajo ejecutado por las personas involucradas en los procesos de transformación de la materia prima a fin de crear el producto que será comercializado. Del mismo modo como ocurre con las materias primas, por su importancia en el proceso de producción puede catalogarse como mano de obra directa o indirecta, la cual viene definida de acuerdo con la relación que tienen frente al proceso de producción. 
 
-    .row.mb-5      
+    .row.mb-5(data-aos="fade-right")      
       .col-lg-6.col-12
         p.mb-4 En este sentido, se podría definir la mano de obra directa como aquella que está directamente involucrada en el proceso de transformación de los insumos en el producto final, por ejemplo, en el caso de una empresa que se dedica a la producción de panela, la mano de obra directa son los empleados encargados de extraer el jugo de caña, que a su vez representa la materia prima indispensable en la preparación de la panela.
         div.mb-lg-0.mb-3.p-4(style="background-color:#ced371")
           p.mb-0 Por su parte, la mano de obra indirecta incluye las labores remuneradas de todos los empleados que no se involucran directamente en el proceso de transformación de las materias primas, pero que sí ejecutan labores de apoyo necesarias en los procesos de producción del producto final, tal es el caso de los colaboradores de servicios generales, los supervisores, entre otros.
-      .col-lg-6.col-8
+      .col-lg-6.col-12
         img.mb-0(src="@/assets/curso/tema2/img05.png")
 
-    .row.justify-content-center.mb-5
-      .col-lg-6.col-8
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-lg-6.col-12
         img.mb-lg-0.mb-3(src="@/assets/curso/tema2/img06.png")
       .col-lg-6.col-12.p-0
-        .fondo2.w-100.px-4.py-4.mb-4          
+        .fondo2.w-100.px-lg-4.px-0.py-lg-4.py-0.mb-4          
             p.mb-0 Del mismo modo como ocurre con las materias primas, es necesario reconocer aquellos costos derivados del costo principal, la mano de obra, lo cual en términos prácticos implica definir cómo salarios al costo principal y al pago de prestaciones sociales, las bonificaciones, los aportes parafiscales y cualquier otra erogación de dinero que esté asociada a la relación laboral. 
         div.p-4(style="background-color:#6e2034")
           p.mb-0.text-white La definición de estos costos derivados queda a discreción del líder encargado del área de producción, quien bajo su criterio determinará el alcance de dichos costos derivados, entre los cuales se podrían considerar las capacitaciones, los auxilios monetarios y los costos de reclutamiento, etc.  
 
 
-    div.px-4.mb-5(style="background-color:#e8e8e8")
+    div.px-4.mb-5(style="background-color:#e8e8e8" data-aos="fade-right")
       .row.mb-5.py-4
         .col-lg-1.col-12.d-flex.justify-content-center
           img.mb-lg-0.mb-3(style="width:73px" src="@/assets/curso/tema2/img07.svg")
         .col-lg-11.col-12.d-flex.align-items-center
           p.mb-0 <b style="font-size:18px; color:#A3314F">Costos indirectos de fabricación:</b>  así como las materias primas y la mano de obra son considerados los elementos principales y necesarios en los procesos de producción para la creación de los productos que serán finalmente comercializados, es necesario para calcular su costo de producción considerar otros rubros, los cuales guardan una relación de causalidad, aunque no tienen un vínculo directo con la fabricación del producto terminado.
 
-    img.mb-5(src="@/assets/curso/tema2/img08.png")
+    img.mb-5(src="@/assets/curso/tema2/img08.png" data-aos="fade-left")
 
     p.mb-5 En este sentido se hace referencia a aquellos costos por los que se obtienen beneficios o elementos que de una manera indirecta son necesarios para garantizar la ejecución de los procesos de producción, entre estos se encuentran los arrendamientos y el mantenimiento de la maquinaria empleada en la producción, los cuales por su relación de causalidad con dichos procesos, deben ser tenidos en cuenta a la hora de proceder al cálculo de los costos de producción del material terminado; en la siguiente figura se sintetiza la información.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10.col-12
         p.mb-0 <b>Figura 1</b>
         p.mb-4 <i>Elementos de los costos de producción</i>
@@ -98,7 +98,7 @@
 
     p.mb-5 En términos generalmente aceptados, dada su naturaleza y teniendo en cuenta los elementos que los conforman, es posible clasificar los costos de producción bajo los siguientes criterios:
 
-    ImagenInfograficaB.color-acento-botones.mb-0
+    ImagenInfograficaB.color-acento-botones.mb-0(data-aos="fade-left")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema2/img10.svg')          
@@ -124,7 +124,7 @@
 
       p.mb-5 Los sistemas existentes para determinar el costo de la producción de bienes constituyen herramientas administrativas, cuya labor consiste en definir de la manera más acertada posible el valor de producción de cualquier bien o servicio. Entre este tipo de herramientas se encuentran las siguientes:
 
-      TabsB.color-acento-contenido.mb-0
+      TabsB.color-acento-contenido.mb-0(data-aos="fade-right")
         .py-5.px-5(titulo="Herramienta de costo basado en<br>actividades (ABC) " :icono="require('@/assets/curso/tema2/img11.svg')")
           h4.mb-4 Se centra en las actividades ejecutadas en el proceso de producción y no de productos.
           .row
@@ -165,9 +165,9 @@
 
     p.mb-5 Como ya quedó establecido, existen tres elementos clave junto con sus características que permiten definir aquellas erogaciones que pueden ser catalogadas como costos de producción, una vez identificadas lo que sigue es valorar su costo, aplicando los procedimientos técnicos recomendados para cada tipo de insumo así:
     
-    .row.mb-5
+    .row.mb-4
       .col-lg-1
-      .col-2
+      .col-lg-2.col-8
         div.p-2(style="background-color:#a3314f")
           h4.mb-0.text-center.text-white Materias Primas
         
@@ -175,7 +175,7 @@
       .col-lg-10.col-12
         p.mb-0 En los procesos de estimación del costo de materias primas es imprescindible incluir todas las erogaciones que intervienen en el proceso de adquisición y puesta en disposición de estos materiales que serán usados en los procesos de producción. Bajo este entendido, en Colombia se reconocen dos sistemas empleados para la valoración de los inventarios de los productos obtenidos en dichos procesos, estos son:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-5.col-12
         h4.mb-3(style="color=#6E2034") Sistema de inventarios periódico:
         p.mb-4 Este modelo determina el costo de la materia prima para periodos de tiempo específicos, por medio del conteo físico de las unidades que no han sido vendidas, para dicho cálculo se emplea la fórmula conocida como <b>juego de inventarios</b>:
@@ -196,11 +196,11 @@
       .col-lg-10.col-12
         p.mb-0 La implementación de este sistema suele requerir una muy baja inversión en tecnología, puesto que en la actualidad brindan cada vez más herramientas y actualizaciones que permiten utilizar el sistema de forma permanente. Dada su naturaleza periódica, el cálculo de la materia prima solo se reconoce al finalizar el periodo, lo cual es una característica que no ayuda a prevenir escenarios futuros para la toma de decisiones.
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="fade-right")
       .col-lg-10.col-12
         img.mb-0(src='@/assets/curso/tema2/img18.png')     
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-3(data-aos="fade-left")
       .col-lg-5.col-12
         img.mb-lg-0.mb-3(src='@/assets/curso/tema2/img19.png')     
       .col-lg-5.col-12
@@ -217,7 +217,7 @@
         h4.mb-2(style="color:#a3314f") Sistema de inventario permanente: 
         p.mb-0 Con la aplicación de este modelo es posible determinar el valor de <b>la materia prima en cualquier momento</b>. Para ello, se puede hacer uso de diversos sistemas, los cuales se pueden revisar a continuación:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         .fondo4.p-4(data-aos="fade-left")
           SlyderA(tipo="b")
@@ -253,9 +253,9 @@
       .col-lg-10.col-12
         p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de kárdex; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de kárdex, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
-        .tabla-b.color-acento-contenido(data-aos="fade-right")                
+        .tabla-b.color-acento-contenido              
           table
             tr(style="background-color: #a3314f;")              
               th.br.p-2(rowspan=2)
@@ -389,7 +389,7 @@
               td.text-center.bb.p-2 466.000
            
                 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         p.mb-0 <b>Tabla 2</b>
         p.mb-4 <i>Hoja de kárdex bajo sistema promedio ponderado</i>
@@ -487,7 +487,7 @@
 
     .row.mb-5
       .col-lg-1
-      .col-2
+      .col-lg-2.col-6
         div.p-2(style="background-color:#a3314f")
           h4.mb-0.text-center.text-white Mano de obra
 
@@ -500,7 +500,7 @@
       .col-lg-8.col-12
         .row.justify-content-center
           .col-lg-4.col-12
-            .tarjeta-avatar.mb-lg-0.mb-3(style="padding-top:60px")
+            .tarjeta-avatar(style="padding-top:60px")
               img(style="width:113px" src='@/assets/curso/tema2/img23.svg')          
               .tarjeta.w-100.fondo5.d-flex.align-items-center
                 .p-4.pt-3.py-5.w-100           
@@ -522,11 +522,11 @@
       .col-lg-10.col-12
         p.mb-0 Para el cálculo de los costos de los factores anteriores se debe tener en cuenta el tiempo necesario que hace exigible dichas erogaciones. La prima y las cesantías, por ejemplo, se conceden tras un año trabajado y corresponde al salario de un mes de trabajo devengado por el empleado para cada año o proporcional al tiempo laborado, por lo que puede definirse como una proporcionalidad de <b>1/12 o lo que es equivalente, el 8,33% de un salario mensual</b>. 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         img(src='@/assets/curso/tema2/img26.png')      
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-5.col-12    
         div.p-3.mb-lg-0.mb-3(style="background-color:#ced371")  
           p.mb-4 <b>Las vacaciones</b>, por su parte, corresponden a <b>una quincena por año trabajado</b>, por lo que su proporción será del <b>4,17%</b>. Lo anterior significa que cada mes el empleado se hará beneficiario de unas prestaciones equivalentes a esa porción del salario. En la siguiente tabla se consolida lo descrito previamente: 
@@ -614,12 +614,12 @@
         p.mb-4 Para el cálculo de todos estos valores se hace uso de una hoja de trabajo conocida como nómina. En ella se pormenorizan todos los pagos y deducciones asociados a cada trabajador y a partir de esta información es posible asignar el costo de mano de obra ajustado al tiempo que cada trabajador emplee en la transformación del producto. 
         p.mb-0 Como ejemplo de lo anterior, puede revisar la siguiente tabla, en la cual se calcula el costo de mano de obra de un producto que requiere una hora de trabajo de un empleado que devenga un salario mínimo mensual legal vigente (SMMLV):
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left") 
       .col-lg-5.col-12   
         p.mb-0 <b>Tabla 5</b>
         p.mb-4 <i>Liquidación costo mensual empleado</i>
 
-        .tabla-b.color-acento-contenido.px-2.mb-lg-0.mb-3(data-aos="fade-right")                
+        .tabla-b.color-acento-contenido.px-2.mb-lg-0.mb-3               
                 table(style="background-color:white; min-width:100px")
                   tr(style="background-color: #a3314f;")              
                     th.br.p-2.text-center.text-white Concepto
@@ -696,6 +696,123 @@
     .row.justify-content-center.mb-5
       .col-lg-10.col-12     
         p.mb-0 Una vez se ha establecido el costo mensual del empleado se debe calcular la proporción de este costo que le corresponde a cada unidad producida, así, si cada empleado tarda una hora de su trabajo en el proceso de transformación y trabaja 24 días al mes en jornadas de 8 horas, el costo de la mano de obra se calcularía así:
+
+    .row.justify-content-center.mb-5(data-aos="fade-right") 
+      .col-lg-5.col-12.d-flex  
+        .sombra1.mb-lg-0.mb-3.py-4.w-100
+          .row.justify-content-center.mb-0
+            .col-lg-8.col-7.p-0.px-lg-1.px-2
+              p.mb-0.text-end 	<b>Costo mensual:</b>
+            .col-lg-4.col-5.p-0.px-1     
+              p.mb-0 	1.540.783
+          .row.justify-content-center.mb-0
+            .col-lg-8.col-7.p-0.px-lg-1.px-2
+              p.mb-0.text-end 	<b>Horas diarias de trabajo:</b>
+            .col-lg-4.col-5.p-0.px-1
+              p.mb-0 	8
+          .row.justify-content-center.mb-3
+            .col-lg-8.col-7.p-0.px-lg-1.px-3
+              p.mb-0.text-end 	<b>Días trabajados al mes:</b>
+            .col-lg-4.col-5.p-0.px-1
+              p.mb-0 	24
+
+          .row.justify-content-center.mb-0
+            .col-lg-8.col-7.p-0.px-1     
+              p.mb-0.text-end 	<b>Horas de trabajo mensual:</b>
+            .col-lg-4.col-5.p-0.px-1     
+              p.mb-0 	192
+          .row.justify-content-center.mb-0
+            .col-lg-8.col-7.p-0.px-1
+              p.mb-0.text-end 	<b>Costo por hora (salario/total horas)</b>
+            .col-lg-4.col-5.p-0.px-1
+              p.mb-0 	8.025
+
+      .col-lg-5.col-12.d-flex
+        .sombra1.w-100.d-flex
+          .row.justify-content-center.p-3
+            .col-lg-4.col-6.d-flex.align-items-center.justify-content-center    
+              img.mb-0(style="width:91px" src='@/assets/curso/tema2/img29.svg')   
+            .col-lg-8.col-12.d-flex.align-items-center.justify-content-center    
+              p.mb-0 Como parte de su aprendizaje autónomo se invita a revisar el video denominado <b>“Liquidación nómina en Colombia”</b>, el cual se encuentra en el material complementario. 
+
+    .row.mb-4
+      .col-lg-1
+      .col-lg-3.col-8
+        div.p-2(style="background-color:#a3314f")
+          h4.mb-0.text-center.text-white Costos indirectos de producción
+
+    .row.justify-content-center.mb-5(data-aos="fade-left") 
+      .col-lg-5.col-12
+        p.mb-4 A la hora de designar este tipo de costos es imprescindible tener claridad si efectivamente corresponden a costos de producción y a qué línea productiva pertenecen. Si existen diferentes tipos de productos y cantidades variadas de producción para los mismos es necesario definir cuánto de cada costo indirecto corresponde a cada tipo de producto, luego, solo se debe distribuir cada costo de manera proporcional según las unidades producidas.
+        p.mb-lg-0.mb-3 En este sentido es el jefe de producción quien decide cuánto de cada costo se asigna a cada línea de producción o área funcional de la fábrica. Para el caso del costeo por órdenes pueden asignarse la cantidad de materiales utilizados o las horas de trabajo destinadas en el mes y con ello, determinar las proporciones. Cuando se utiliza un modelo de costeo estándar, donde se cuenta con una programación estimada, pueden usarse dichas proyecciones en función de unidades producidas.
+      .col-lg-5.col-12
+        img.mb-0(src='@/assets/curso/tema2/img30.png')   
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 En términos prácticos, suponiendo que el total de costos indirectos es 2.950.000, para un total de 200 unidades de producto A producidas en 250 horas de trabajo y 300 unidades de producto B producidas en 134 horas de trabajo, se realizará un prorrateo tomando como base las horas de trabajo empleadas en la producción de cada línea de producto y en función de estas unidades se definirá el costo indirecto de fabricación por unidad para cada línea de producto así:
+
+    .row.justify-content-center.mb-5(data-aos="fade-right") 
+      .col-lg-5.col-12
+        .tabla-b.color-acento-contenido.px-2.mb-lg-0.mb-3              
+                table(style="background-color:white; min-width:100px")
+                  tr(style="background-color: #9ea257;")              
+                    th.br.p-2.text-center 
+                    th.p-2.text-center Costo indirecto asignado
+                    th.p-2.text-center Unidades producidas
+                    th.p-2.text-center Costo indirecto unitario
+
+                  tr                    
+                    td.br.p-1 <b>Producto A</b>
+                    td.br.p-1.text-center <b>1.920.573</b>
+                    td.br.p-1.text-center <b>200</b>
+                    td.p-1.text-center <b>9.603</b>
+
+                  tr                    
+                    td.br.p-1 <b>Producto B</b>
+                    td.br.p-1.text-center <b>1.029.427</b>
+                    td.br.p-1.text-center <b>100</b>
+                    td.p-1.text-center <b>10.294</b>
+
+                  tr                    
+                    td.br.p-1.text-center <b>Total</b>
+                    td.br.p-1.text-center <b>2.950.000</b>
+                    td.br.p-1.text-center <b>300</b>
+                    td.p-1.text-center <b></b>
+        
+      .col-lg-5.col-12
+        div.p-2(style="background-color: #ffb500")
+          .row.justify-content-center
+            .col-lg-3.col-12.d-flex.align-items-start.justify-content-center
+              img.mb-0(style="width:76px" src='@/assets/curso/tema2/img31.png')   
+            .col-lg-9.col-12
+              p.mb-1 <b>Para recordar…</b>
+              p.mb-0 Tan pronto son definidos los costos unitarios para la materia prima, la mano de obra y los costos indirectos de fabricación solo resta consolidarlos en una orden de producción, para establecer el valor total que cuesta producirlos.
+
+    .row.justify-content-center.mb-5(data-aos="fade-left") 
+      .col-lg-10.col-12
+        .tarjeta.color-principal.p-3.mb-4(style="background-color:#f4f6dd" data-aos="fade-left")
+          .row.justify-content-around.align-items-center
+            .col-lg-2.col-6.d-flex.justify-content-center
+              img.mb-lg-0.mb-3(style="width:70px" src="@/assets/curso/tema2/img32.svg")
+            .col-10
+              .row.justify-content-center.align-items-center
+                .col-lg-9.col-12.d-flex.align-items-center
+                  div
+                    p.mb-lg-0.mb-3 Para profundizar en el tema sobre costos de producción se invita a ver el video ¨<b>Sistemas de costeo</b>¨ realizado por el Ecosistema de <b>Recursos Educativos Digitales SENA</b>  
+                .col-lg-3.col-6.d-flex.justify-content-center.p-0
+                  a.boton.color-acento-botones.p-0.py-2(style="width:140px; background-color:#fcc15a" :href="obtenerLink('downloads/Cartilla_Manejo_Integrado_plagas_Mosca_Junio2020.pdf')" target="_blank")
+                    .row.w-100.m-0
+                      .col-lg-9.col-12.p-0.px-3.d-flex.align-items-center              
+                        p.mb-0(style="color:#12263F") Ver Video
+                      .col-lg-3.col-12.p-0.px-3.d-flex.justify-content-center.align-items-center
+                        i.fas.fa-circle-play.fa-play(style="color:#12263F")
+
+        p.mb-0 Ahora bien, para reforzar su aprendizaje se invita a revisar la siguiente videoclase que trata la estimación de costos de producción: 
+
+    figure(data-aos="fade-right")
+      .video        
+        iframe(width="789" height="444" src="https://www.youtube.com/embed/uyvsqO_0kvw" title="Costos de producción y análisis financiero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
