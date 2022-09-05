@@ -613,6 +613,89 @@
       .col-lg-10.col-12   
         p.mb-4 Para el cálculo de todos estos valores se hace uso de una hoja de trabajo conocida como nómina. En ella se pormenorizan todos los pagos y deducciones asociados a cada trabajador y a partir de esta información es posible asignar el costo de mano de obra ajustado al tiempo que cada trabajador emplee en la transformación del producto. 
         p.mb-0 Como ejemplo de lo anterior, puede revisar la siguiente tabla, en la cual se calcula el costo de mano de obra de un producto que requiere una hora de trabajo de un empleado que devenga un salario mínimo mensual legal vigente (SMMLV):
+
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-12   
+        p.mb-0 <b>Tabla 5</b>
+        p.mb-4 <i>Liquidación costo mensual empleado</i>
+
+        .tabla-b.color-acento-contenido.px-2.mb-lg-0.mb-3(data-aos="fade-right")                
+                table(style="background-color:white; min-width:100px")
+                  tr(style="background-color: #a3314f;")              
+                    th.br.p-2.text-center.text-white Concepto
+                    th.p-2.text-center.text-white Operario No.1                 
+
+                  tr                    
+                    td.text-center.br.p-1 Salario
+                    td.text-center.p-1 1.000.000
+                  tr                    
+                    td.text-center.br.p-1 Auxilio de transporte
+                    td.text-center.p-1 117.172
+                  tr                    
+                    td.text-center.br.p-1 Subtotal salario
+                    td.text-center.p-1 1.117.172
+                  tr(style="background-color: #e8e8e8;")                              
+                    td.text-center.br.p-2 <b>Prestaciones</b>
+                    td.text-center.p-2 
+
+                  tr                    
+                    td.text-center.br.p-1 Vacaciones
+                    td.text-center.p-1 41.667
+                  tr                    
+                    td.text-center.br.p-1 Cesantias
+                    td.text-center.p-1 93.097
+                  tr                    
+                    td.text-center.br.p-1 Prima de servicios
+                    td.text-center.p-1 93.097
+                  tr                    
+                    td.text-center.br.p-1 Intereses a las cesantias
+                    td.text-center.p-1 11.171
+                  tr                    
+                    td.text-center.br.p-1 Subtotal prestaciones
+                    td.text-center.p-1 239.032
+                  tr(style="background-color: #e8e8e8;")                              
+                    td.text-center.br.p-2 <b>Seguridad social</b>
+                    td.text-center.p-2 
+
+                  tr                    
+                    td.text-center.br.p-1 Salud
+                    td.text-center.p-1 -
+                  tr                    
+                    td.text-center.br.p-1 Pensión
+                    td.text-center.p-1 134.061
+                  tr                    
+                    td.text-center.br.p-1 ARL
+                    td.text-center.p-1 5.832
+                  tr                    
+                    td.text-center.br.p-1 Subtotal seguridad social
+                    td.text-center.p-1 139.892
+                  tr(style="background-color: #e8e8e8;")                              
+                    td.text-center.br.p-2 <b>Aportes parafiscales</b>
+                    td.text-center.p-2 
+
+                  tr                    
+                    td.text-center.br.p-1 Caja de compensación
+                    td.text-center.p-1 44.687
+                  tr                    
+                    td.text-center.br.p-1 SENA
+                    td.text-center.p-1 -
+                  tr                    
+                    td.text-center.br.p-1 ICBF
+                    td.text-center.p-1 -
+                  tr                    
+                    td.text-center.br.p-1 Subtotal parafiscales
+                    td.text-center.p-1 44.687
+                  tr(style="background-color: #e8e8e8;")                              
+                    td.text-center.br.p-2 <b>Total costo empleado</b>
+                    td.text-center.p-2 1.540.783
+
+      .col-lg-5.col-12   
+        img.mb-3(src='@/assets/curso/tema2/img27.png')      
+        img.mb-0(src='@/assets/curso/tema2/img28.png')   
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12     
+        p.mb-0 Una vez se ha establecido el costo mensual del empleado se debe calcular la proporción de este costo que le corresponde a cada unidad producida, así, si cada empleado tarda una hora de su trabajo en el proceso de transformación y trabaja 24 días al mes en jornadas de 8 horas, el costo de la mano de obra se calcularía así:
 </template>
 
 <script>
