@@ -32,6 +32,7 @@
       .col-lg-6.col-10
         img.mb-0(src="@/assets/curso/tema4/img03.png")
 
+    p.mb-4 Esta información resulta también de gran interés para los agentes involucrados, ya sean externos o internos, puesto que estos análisis proveerán información que les ayudará a <b>entender, medir y evaluar</b> la situación, <b>realizar controles y seguimientos</b>, y utilizarlo de base <b>para planificar, presupuestar</b> o hacer otras <b>proyecciones a futuro</b>, etc.
     p.mb-5 Realizar un análisis de las finanzas de una empresa tiene una serie de beneficios que se deben tener en cuenta. Estas ventajas hacen que este tipo de documentos sea clave para el correcto funcionamiento de una compañía. Entre las distintas ventajas se pueden destacar las siguientes:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -373,7 +374,7 @@
                 div
                   p.mb-lg-0.mb-3 <b>Para aprender más sobre indicadores financieros se invita a revisar la Web del Instituto Nacional de Contadores Públicos de Colombia</b>
               .col-lg-3.col-6.d-flex.justify-content-center.p-0
-                a.boton.color-acento-botones.p-0.py-2(style="width:111px; background-color:#fcc15a" :href="obtenerLink('downloads/Cartilla_Manejo_Integrado_plagas_Mosca_Junio2020.pdf')" target="_blank")
+                a.boton.color-acento-botones.p-0.py-2(style="width:111px; background-color:#fcc15a" :href="obtenerLink('downloads/7-if.pdf')" target="_blank")
                   .row.w-100.m-0
                     .col-6.p-0.px-3.d-flex.align-items-center                  
                       p.mb-0(style="color:#12263F") Ver

@@ -68,7 +68,37 @@
             p.mb-0 En este apartado resulta perentorio afirmar que, si se cumplen con estas condiciones se habla de un contrato de trabajo, incluso cuando los documentos que suscriben las partes indiquen otra cosa. Así, es común encontrarse con situaciones donde se manejan figuras como <b style="color:#6E2034">contratos de prestación de servicios para evitar los pagos adicionales que implican las relaciones laborales</b>; sin embargo, si el contratista (en este caso empleado) logra demostrar que se dieron estas condiciones, <b style="color:#6E2034">la ley puede obligar al contratante (o empleador) a que le reconozca los derechos laborales que omitió de forma retroactiva</b>.            
       
     p.mb-5 Teniendo claro lo que hace que un contrato se configure como laboral, es posible clasificarlo de acuerdo con las condiciones a partir de las cuales se llevarán a cabo las labores y por ello, el siguiente recurso presenta los tipos de contrato de esta naturaleza según el Ministerio del Trabajo:
-    img.mb-0(src="@/assets/curso/tema1/img07.svg")
+    ImagenInfografica.color-acento-botones.mb-0
+      template(v-slot:imagen)
+        figure
+          img.mb-0(src="@/assets/curso/tema1/img07.svg")          
+
+      .div1.p-4(x="1.7%" y="77.4%" numero="+")
+        .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
+          p.mb-1 <b>Por obra o labor:</b>
+          p.mb-0 Al momento de suscribir el contrato se acuerda que el trabajo finalizará una vez se culmine con una tarea determinada. Así, no se cuenta con una fecha en sí mismo, sino con un requisito para dar por cumplida la condición asociada con la duración del contrato.  Suele ser utilizado en obra civil, donde los empleados trabajarán hasta que se termine la obra o una etapa determinada, o en universidades o colegios, donde los docentes o personal administrativo trabajarán hasta la finalización del semestre o año escolar.
+
+      .div1.p-4(x="22.15%" y="77.55%" numero="+")
+        .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
+          p.mb-1 <b>A término fijo: </b>
+          p.mb-0 En este tipo de contrato se define la fecha de inicio y de terminación de este, el periodo comprendido entre ambas no puede superar los 3 años según la normatividad aplicable. Dadas sus características, debe constar por escrito. A pesar de que cuente con una fecha de finalización, este puede ser renovado hasta tres veces si su duración es inferior a un año y de forma indefinida si es igual o superior. En caso de no querer renovar es importante informar a la otra parte con suficiente antelación (30 días previos a la fecha de terminación) para que se tomen todas las medidas y se minimice el potencial impacto negativo. De no haber preaviso, el contrato se entenderá renovado de forma automática por el mismo término inicial o por un periodo de un año según el número de renovaciones a ese momento.
+
+      .div1.p-4(x="42.45%" y="77.55%" numero="+" )
+        .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
+          p.mb-1 <b>A término indefinido: </b>
+          p.mb-0 Se dan cuando una persona lleva a cabo la parte práctica de su formación en una empresa autorizada. Así, existe un contrato conveniente para ambas partes, puesto que la empresa cuenta con un empleado a un menor costo y el trabajador cumple con uno de los requisitos para poder obtener su titulación. La duración del contrato de aprendizaje no puede ser superior a dos años, mientras que la remuneración que recibe el empleado no puede ser inferior al 50% de un salario mínimo mensual legal vigente durante su etapa lectiva o del 75% durante la etapa práctica.
+
+      .div1.p-4(x="63.6%" y="77.5%" numero="+")
+        .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
+          p.mb-1 <b>De aprendizaje: </b>
+          p.mb-0 Se dan cuando una persona lleva a cabo la parte práctica de su formación en una empresa autorizada. Así, existe un contrato conveniente para ambas partes, puesto que la empresa cuenta con un empleado a un menor costo y el trabajador cumple con uno de los requisitos para poder obtener su titulación. La duración del contrato de aprendizaje no puede ser superior a dos años, mientras que la remuneración que recibe el empleado no puede ser inferior al 50% de un salario mínimo mensual legal vigente durante su etapa lectiva o del 75% durante la etapa práctica.
+
+      .div1.p-4(x="84%" y="77.4%" numero="+")
+        .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
+          p.mb-1 <b>Temporal, ocasional o accidental: </b>
+          p.mb-0 Es aquel contrato que se suscribe de forma transitoria o accidental, por lo que su duración no supera los 30 días. Al igual que en el contrato a término indefinido se puede dar de forma verbal. Adicionalmente, la actividad debe estar encaminada a situaciones ajenas a las normales que presta la empresa, es decir, no debe ser una tarea que la organización lleve a cabo de forma permanente. 
+    
+    
     
 
     .fondo2

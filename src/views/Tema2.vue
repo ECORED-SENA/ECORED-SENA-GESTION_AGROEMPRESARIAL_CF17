@@ -806,7 +806,7 @@
                   div
                     p.mb-lg-0.mb-3 Para profundizar en el tema sobre costos de producción se invita a ver el video ¨<b>Sistemas de costeo</b>¨ realizado por el Ecosistema de <b>Recursos Educativos Digitales SENA</b>  
                 .col-lg-3.col-6.d-flex.justify-content-center.p-0
-                  a.boton.color-acento-botones.p-0.py-2(style="width:140px; background-color:#fcc15a" :href="obtenerLink('downloads/Cartilla_Manejo_Integrado_plagas_Mosca_Junio2020.pdf')" target="_blank")
+                  a.boton.color-acento-botones.p-0.py-2(style="width:140px; background-color:#fcc15a" href="https://www.youtube.com/watch?v=E7yMcPXQ7Ps" target="_blank")
                     .row.w-100.m-0
                       .col-lg-9.col-12.p-0.px-3.d-flex.align-items-center              
                         p.mb-0(style="color:#12263F") Ver Video
