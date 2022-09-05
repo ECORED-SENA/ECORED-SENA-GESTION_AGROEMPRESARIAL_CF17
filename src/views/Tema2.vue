@@ -162,7 +162,369 @@
 
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4 Cálculo
+
+    p.mb-5 Como ya quedó establecido, existen tres elementos clave junto con sus características que permiten definir aquellas erogaciones que pueden ser catalogadas como costos de producción, una vez identificadas lo que sigue es valorar su costo, aplicando los procedimientos técnicos recomendados para cada tipo de insumo así:
     
+    .row.mb-5
+      .col-lg-1
+      .col-2
+        div.p-2(style="background-color:#a3314f")
+          h4.mb-0.text-center.text-white Materias Primas
+        
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 En los procesos de estimación del costo de materias primas es imprescindible incluir todas las erogaciones que intervienen en el proceso de adquisición y puesta en disposición de estos materiales que serán usados en los procesos de producción. Bajo este entendido, en Colombia se reconocen dos sistemas empleados para la valoración de los inventarios de los productos obtenidos en dichos procesos, estos son:
+
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-12
+        h4.mb-3(style="color=#6E2034") Sistema de inventarios periódico:
+        p.mb-4 Este modelo determina el costo de la materia prima para periodos de tiempo específicos, por medio del conteo físico de las unidades que no han sido vendidas, para dicho cálculo se emplea la fórmula conocida como <b>juego de inventarios</b>:
+        .row.justify-content-center
+          .col-lg-8.col-12
+            div.mb-lg-0.mb-3.sombra1
+              p.mb-0.text-center(style="color:#6E2034") <b>Compra de materias primas</b>
+              p.mb-4.text-center (-) Devoluciones y descuentos
+
+              p.mb-0.text-center(style="color:#6E2034") <b>Compras netas</b>
+              p.mb-0.text-center (-) Inventario final<br>Materias primas utilizadas
+
+
+      .col-lg-5.col-12
+        img.mb-0(src='@/assets/curso/tema2/img17.png')     
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 La implementación de este sistema suele requerir una muy baja inversión en tecnología, puesto que en la actualidad brindan cada vez más herramientas y actualizaciones que permiten utilizar el sistema de forma permanente. Dada su naturaleza periódica, el cálculo de la materia prima solo se reconoce al finalizar el periodo, lo cual es una característica que no ayuda a prevenir escenarios futuros para la toma de decisiones.
+
+    .row.justify-content-center.mb-3
+      .col-lg-10.col-12
+        img.mb-0(src='@/assets/curso/tema2/img18.png')     
+
+    .row.justify-content-center.mb-3
+      .col-lg-5.col-12
+        img.mb-lg-0.mb-3(src='@/assets/curso/tema2/img19.png')     
+      .col-lg-5.col-12
+        p.mb-3 Por ejemplo, una planta de producción de alimentos en la que se deben comprar los insumos para llevar a cabo la producción de los diferentes tipos de productos que ofrece; con el conteo de inventario físico a cierre de un año, tendrá claridad sobre la materia prima existente al inicio del siguiente año. 
+        div(style="background-color:#a3314f")
+          p.mb-0.text-white.p-3 Con la aplicación de la fórmula descrita se podrá establecer la cantidad de materia prima que se utilizó en el año, tomando de base la que tenía al empezar el año, sumando la que compró y restando las existencias sin utilizar que quedarán para utilizar el año siguiente.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 Entendido lo anterior, se deduce que el conteo físico de los inventarios es un elemento necesario en la cuantificación de los costos, por lo que la oportunidad de la información estará supeditada a esta actividad; determinar el costo de manera periódica requiere de tomas físicas de inventarios con la misma periodicidad. 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        h4.mb-2(style="color:#a3314f") Sistema de inventario permanente: 
+        p.mb-0 Con la aplicación de este modelo es posible determinar el valor de <b>la materia prima en cualquier momento</b>. Para ello, se puede hacer uso de diversos sistemas, los cuales se pueden revisar a continuación:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        .fondo4.p-4(data-aos="fade-left")
+          SlyderA(tipo="b")
+            .row.justify-content-center.px-0.py-3
+              .col-lg-11.col-12
+                .row.justify-content-center.py-4
+                  .col-lg-5.lg-12.pt-lg-4.pt-0
+                    h4.mb-4 Primeras en entrar, primeras en salir
+                    p.mb-lg-0.mb-3 Las unidades de materia prima adquiridas serán aplicadas en la producción de acuerdo con el orden en que fueron adquiridas, de este modo, las existencias finales de inventario estarán compuestas por las últimas unidades compradas.
+                  .col-lg-7.lg-8
+                    img.mb-0(src="@/assets/curso/tema2/img20.png")
+
+            .row.justify-content-center.px-0.py-3
+              .col-lg-11.col-12
+                .row.justify-content-center.py-4
+                  .col-lg-5.lg-12.pt-lg-4.pt-0
+                    h4.mb-4 Últimas en entrar, primeras en salir 
+                    p.mb-lg-0.mb-3 En este sistema la materia prima utilizada será la adquirida más recientemente, por lo que el inventario final estará conformado por el costo de la materia prima adquirida con mayor antigüedad. 
+                  .col-lg-7.lg-8
+                    img.mb-0(src="@/assets/curso/tema2/img21.png")
+
+            .row.justify-content-center.px-0.py-3
+              .col-lg-11.col-12
+                .row.justify-content-center.py-4
+                  .col-lg-5.lg-12.pt-lg-4.pt-0
+                    h4.mb-4 Promedio ponderado 
+                    p.mb-lg-0.mb-3 Bajo este sistema el coste de la materia prima estará determinado de tal manera que todas las compras afectan el costo de todas las unidades,  que lo implica que las variaciones en los precios de compra afectan todas las existencias presentes en el inventario.<br><br>Por esto, el valor resultante corresponde a un promedio entre los dos sistemas anteriores, no solo para la materia prima utilizada, sino también, para el inventario final.
+                  .col-lg-7.lg-8
+                    img.mb-0(src="@/assets/curso/tema2/img22.png")
+
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de kárdex; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de kárdex, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        .tabla-b.color-acento-contenido(data-aos="fade-right")                
+          table
+            tr(style="background-color: #a3314f;")              
+              th.br.p-2(rowspan=2)
+                h4.mb-0.text-center.text-white Detalle
+              th.br.p-2(rowspan=2)
+                h4.mb-0.text-center.text-white Valor Unitario
+              th.br.bb.p-2(colspan=3)
+                h4.mb-0.text-center.text-white Entradas
+              th.br.bb.p-2(colspan=3)
+                h4.mb-0.text-center.text-white Salidas
+              th.bb.p-2(colspan=3)
+                h4.mb-0.text-center.text-white Saldo
+            tr(style="background-color: #a3314f;")                                          
+              th.br.p-2
+                h4.mb-0.text-center.text-white Cantidad
+              th.br.p-2
+                h4.mb-0.text-center.text-white Valor Unitario
+              th.br.p-2
+                h4.mb-0.text-center.text-white Total
+              th.br.p-2
+                h4.mb-0.text-center.text-white Cantidad
+              th.br.p-2
+                h4.mb-0.text-center.text-white Valor Unitario
+              th.br.p-2
+                h4.mb-0.text-center.text-white Total
+              th.br.p-2
+                h4.mb-0.text-center.text-white Valor Unitario
+              th.p-2
+                h4.mb-0.text-center.text-white Total
+
+            tr
+              td.br.bb.p-2 <b>Inventario inicial</b>
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 30
+              td.text-center.br.bb.p-2 300.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 30
+              td.text-center.bb.p-2 495.000
+
+            tr
+              td.br.bb.p-2 <b>Compra 3 de marzo</b>
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 15
+              td.text-center.br.bb.p-2 195.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 45
+              td.text-center.bb.p-2 870.000
+
+            tr
+              td.br.bb.p-2 <b>Compra 12 de marzo</b>
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 
+
+            tr
+              td.br.bb.p-2(rowspan=3) <b>Orden de producción 11 (20 unidades)</b>
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 20
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 200.000
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 670.000
+            tr              
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 670.000
+            tr              
+              td.text-center.br.bb.p-2 15.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 670.000
+
+            tr
+              td.br.bb.p-2(rowspan=3) <b>Orden de producción 12 (18 unidades)</b>
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 10
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 100.000
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 570.000
+
+            tr              
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 8
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 104.000
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 466.000
+
+            tr              
+              td.text-center.br.bb.p-2 15.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.bb.p-2 466.000
+           
+                
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 <b>Tabla 2</b>
+        p.mb-4 <i>Hoja de kárdex bajo sistema promedio ponderado</i>
+        .tabla-b.color-acento-contenido.mb-5 (data-aos="fade-right")                
+          table
+            tr(style="background-color: #ced371;")              
+              th.br.p-2(rowspan=2)
+                h4.mb-0.text-center Detalle
+              th.br.p-2(rowspan=2)
+                h4.mb-0.text-center Valor Unitario
+              th.br.bb.p-2(colspan=3)
+                h4.mb-0.text-center Entradas
+              th.br.bb.p-2(colspan=3)
+                h4.mb-0.text-center Salidas
+              th.bb.p-2(colspan=3)
+                h4.mb-0.text-center Saldo
+            tr(style="background-color: #ced371;")                                          
+              th.br.p-2
+                h4.mb-0.text-center Cantidad
+              th.br.p-2
+                h4.mb-0.text-center Valor Unitario
+              th.br.p-2
+                h4.mb-0.text-center Total
+              th.br.p-2
+                h4.mb-0.text-center Cantidad
+              th.br.p-2
+                h4.mb-0.text-center Valor Unitario
+              th.br.p-2
+                h4.mb-0.text-center Total
+              th.br.p-2
+                h4.mb-0.text-center Valor Unitario
+              th.p-2
+                h4.mb-0.text-center Total
+
+            tr
+              td.br.bb.p-2 <b>Inventario inicial</b>
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 10.000
+              td.text-center.br.bb.p-2 30
+              td.text-center.br.bb.p-2 300.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 30
+              td.text-center.bb.p-2 300.000
+
+            tr
+              td.br.bb.p-2 <b>Compra 3 de marzo</b>
+              td.text-center.br.bb.p-2 11.000
+              td.text-center.br.bb.p-2 13.000
+              td.text-center.br.bb.p-2 15
+              td.text-center.br.bb.p-2 195.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 45
+              td.text-center.bb.p-2 495.000
+
+            tr
+              td.br.bb.p-2 <b>Compra 12 de marzo</b>
+              td.text-center.br.bb.p-2 12.429
+              td.text-center.br.bb.p-2 15.000
+              td.text-center.br.bb.p-2 25
+              td.text-center.br.bb.p-2 375.000
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 70
+              td.text-center.bb.p-2 870.000
+
+            tr
+              td.br.bb.p-2 <b>Orden de producción 11 (20 unidades)</b>
+              td.text-center.br.bb.p-2 12.429
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 20
+              td.text-center.br.bb.p-2 12.429
+              td.text-center.br.bb.p-2 248.571
+              td.text-center.br.bb.p-2 50
+              td.text-center.bb.p-2 621.429
+
+            tr
+              td.br.bb.p-2 <b>Orden de producción 12 (18 unidades)</b>
+              td.text-center.br.bb.p-2 12.429
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 
+              td.text-center.br.bb.p-2 18
+              td.text-center.br.bb.p-2 12.429
+              td.text-center.br.bb.p-2 223.714
+              td.text-center.br.bb.p-2 32
+              td.text-center.bb.p-2 397.714
+        p.mb-0 Al momento de hacer un análisis de las dos tablas se pueden encontrar diferencias en los valores de la materia prima, puesto que a pesar de que cuentan con los mismos valores de entradas y salidas, y el total de la mercancía es equivalente, se destinan valores diferentes en las órdenes. La elección de uno u otro dependerá de las necesidades de la empresa, pese a las divergencias ambos sistemas abordan el costeo de una manera acertada.<br><br>      
+
+    .row.mb-5
+      .col-lg-1
+      .col-2
+        div.p-2(style="background-color:#a3314f")
+          h4.mb-0.text-center.text-white Mano de obra
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        p.mb-0 Para cálculo del costo de la mano de obra es importante tener presente la legislación laboral colombiana, puesto que bajo esta normativa se establecen por ley una serie de erogaciones inherentes a la configuración de las relaciones laborales como:
+          
+
+    .row.justify-content-center.mb-5(data-aos="fade-left")      
+      .col-lg-8.col-12
+        .row.justify-content-center
+          .col-lg-4.col-12
+            .tarjeta-avatar.mb-lg-0.mb-3(style="padding-top:60px")
+              img(style="width:113px" src='@/assets/curso/tema2/img23.svg')          
+              .tarjeta.w-100.fondo5.d-flex.align-items-center
+                .p-4.pt-3.py-5.w-100           
+                  p.mb-0.text-center <b>El salario básico.</b>
+          .col-lg-4.col-12
+            .tarjeta-avatar.mb-lg-0.mb-3(style="padding-top:60px")
+              img(style="width:113px" src='@/assets/curso/tema2/img24.svg')          
+              .tarjeta.w-100.fondo5.d-flex.align-items-center
+                .p-4.pt-3.py-5.w-100                      
+                  p.mb-0.text-center <b>Prestaciones sociales. </b>
+          .col-lg-4.col-12
+            .tarjeta-avatar(style="padding-top:60px")
+              img(style="width:113px" src='@/assets/curso/tema2/img25.svg')          
+              .tarjeta.w-100.fondo5.d-flex.align-items-center
+                .p-4.pt-3.py-5.w-100           
+                  p.mb-0.text-center <b>Aportes parafiscales y de seguridad social, y todas las demás retribuciones que se le ofrezcan al empleado. </b>
+
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        p.mb-0 Para el cálculo de los costos de los factores anteriores se debe tener en cuenta el tiempo necesario que hace exigible dichas erogaciones. La prima y las cesantías, por ejemplo, se conceden tras un año trabajado y corresponde al salario de un mes de trabajo devengado por el empleado para cada año o proporcional al tiempo laborado, por lo que puede definirse como una proporcionalidad de <b>1/12 o lo que es equivalente, el 8,33% de un salario mensual</b>. 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12
+        img(src='@/assets/curso/tema2/img26.png')          
 </template>
 
 <script>
