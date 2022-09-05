@@ -393,7 +393,7 @@
       .col-lg-10.col-12
         p.mb-0 <b>Tabla 2</b>
         p.mb-4 <i>Hoja de kárdex bajo sistema promedio ponderado</i>
-        .tabla-b.color-acento-contenido.mb-5 (data-aos="fade-right")                
+        .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")                
           table
             tr(style="background-color: #ced371;")              
               th.br.p-2(rowspan=2)
@@ -524,7 +524,95 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
-        img(src='@/assets/curso/tema2/img26.png')          
+        img(src='@/assets/curso/tema2/img26.png')      
+
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-12    
+        div.p-3.mb-lg-0.mb-3(style="background-color:#ced371")  
+          p.mb-4 <b>Las vacaciones</b>, por su parte, corresponden a <b>una quincena por año trabajado</b>, por lo que su proporción será del <b>4,17%</b>. Lo anterior significa que cada mes el empleado se hará beneficiario de unas prestaciones equivalentes a esa porción del salario. En la siguiente tabla se consolida lo descrito previamente: 
+        
+          p.mb-0 <b>Tabla 3</b>
+          p.mb-2 <i>Factores prestacionales</i>
+          
+          .tabla-b.color-acento-contenido.px-2(data-aos="fade-right")                
+                table(style="background-color:white; min-width:100px")
+                  tr(style="background-color: #a3314f;")              
+                    th.br.p-2
+                      h4.mb-0.text-center.text-white Prestaciones
+                    th.p-2
+                      h4.mb-0.text-center.text-white Porción de salario a pagar                   
+
+                  tr                    
+                    td.text-center.br.bb.p-2 <b>Vacaciones</b>
+                    td.text-center.bb.p-2 <b>4,17%</b>
+
+                  tr                    
+                    td.text-center.br.bb.p-2 <b>Cesantias</b>
+                    td.text-center.bb.p-2 <b>8,33%</b>
+
+                  tr                    
+                    td.text-center.br.bb.p-2 <b>Prima de servicios</b>
+                    td.text-center.bb.p-2 <b>8,33%</b>
+
+                  tr                    
+                    td.text-center.br.bb.p-2 <b>Intereses a las cesantias</b>
+                    td.text-center.bb.p-2 <b>1%</b>
+
+                  tr                    
+                    td.text-center.br.p-2 <b>Total</b>
+                    td.text-center.p-2 <b>21,83%</b>
+      .col-lg-5.col-12 
+        div.p-3.mb-3(style="background-color:#a3314f")  
+          p.mb-0.text-white Adicional a lo anterior, de la relación laboral también se desprende el cumplimiento de pagos correspondientes a <b>la seguridad social del empleado</b>, que para el caso del empleador debe cumplir con aportes que en proporción al salario devengado corresponden a los siguientes porcentajes y su pago es mensualizado. Vea la siguiente tabla explicativa: 
+        
+        p.mb-0 <b>Tabla 4</b>
+        p.mb-2 <i>Aportes obligatorios a seguridad social</i>
+
+        .tabla-b.color-acento-contenido.px-2(data-aos="fade-right")                
+                table(style="background-color:white; min-width:100px")
+                  tr(style="background-color: #ced371;")              
+                    th.br.p-1(colspan=2)
+                      h4.mb-0.text-center
+                    th.br.p-1 <b>Empleador/a de un SMMLV</b>
+                    th.br.p-1 <b>Trabajador/a de un SMMLV</b>
+                    th.p-1 <b>Total</b>
+
+                  tr                    
+                    td.text-center.br.p-1(colspan=2) <b>Pensiones</b>
+                    td.text-center.br.p-1 <b>12%</b>
+                    td.text-center.br.p-1 <b>4%</b>
+                    td.text-center.p-1 <b>16%</b>
+
+                  tr                    
+                    td.text-center.br.p-1(colspan=2) <b>Salud</b>
+                    td.text-center.br.p-1 <b>8.5%</b>
+                    td.text-center.br.p-1 <b>4%</b>
+                    td.text-center.p-1 <b>12.5%</b>
+
+                  tr                    
+                    td.text-center.br.p-1(colspan=2 style="width:45% !important") <b>Riesgos laborales - Nivel I</b>
+                    td.text-center.br.p-1 <b>0.5%</b>
+                    td.text-center.br.p-1 <b></b>
+                    td.text-center.p-1 <b>0.5%</b>
+
+                  tr                    
+                    td.text-center.br.p-1(colspan=2) <b>Cajas de compensación</b>
+                    td.text-center.br.p-1 <b>4%</b>
+                    td.text-center.br.p-1 <b></b>
+                    td.text-center.p-1 <b>4%</b>
+
+                  tr                    
+                    td.text-center.br.p-1(colspan=2) <b>Total</b>
+                    td.text-center.br.p-1 <b>25%</b>
+                    td.text-center.br.p-1 <b>8%</b>
+                    td.text-center.p-1 <b>33%</b>
+                  tr
+                    td.p-2(colspan=5 style="font-size:11px; background-color:#f6f6f6") Nota. Tomado de “Cotización a la Seguridad Social – Aportes” Ministerio del Trabajo (2019). 
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12   
+        p.mb-4 Para el cálculo de todos estos valores se hace uso de una hoja de trabajo conocida como nómina. En ella se pormenorizan todos los pagos y deducciones asociados a cada trabajador y a partir de esta información es posible asignar el costo de mano de obra ajustado al tiempo que cada trabajador emplee en la transformación del producto. 
+        p.mb-0 Como ejemplo de lo anterior, puede revisar la siguiente tabla, en la cual se calcula el costo de mano de obra de un producto que requiere una hora de trabajo de un empleado que devenga un salario mínimo mensual legal vigente (SMMLV):
 </template>
 
 <script>
