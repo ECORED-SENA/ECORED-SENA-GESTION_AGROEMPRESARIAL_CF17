@@ -136,7 +136,7 @@
               p.mb-0.px-4(style="font-size:14px !important") Centrada en las actividades ejecutadas en el proceso de producción de pepinos orgánicos.
 
         .py-5.px-5(titulo="Costeo por absorción" :icono="require('@/assets/curso/tema2/img13.svg')")
-          h4.mb-4 Es un modelo sencillo de aplicar
+          h4.mb-4 Es un modelo sencillo de aplicar.
           .row
             .col-lg-6.col-12
               p.mb-4 En este método se cargan todos los costos intervinientes en la producción directamente al producto, sin hacer distinción entre los costos normales y los no normales, por ende, es un modelo sencillo de aplicar, dado que su producción y desarrollo requiere menos recursos.
@@ -150,8 +150,13 @@
           .row
             .col-lg-6.col-12
               p.mb-4 En este sistema se tiene por objetivo prever con anticipación el costo de producción, para ello analiza gran variedad de factores presentes en los procesos de producción, tales como:
-              p.mb-4 Número de unidades producidas en un tiempo determinado para cada máquina o tipo de fabricante o 
-              p.mb-4 las unidades elaboradas por cada operario por unidad de tiempo.
+              ul.lista-ul.mb-4
+                li.mb-0 
+                  i.lista-ul__vineta
+                  p.mb-0 Número de unidades producidas en un tiempo determinado para cada máquina o tipo de fabricante o 
+                li 
+                  i.lista-ul__vineta
+                  p.mb-0 las unidades elaboradas por cada operario por unidad de tiempo.
               p.mb-4 Para con esta información, calcular y establecer un nivel de producción promedio aceptable para la administración de acuerdo con un periodo de tiempo definido. 
               p.mb-mb-lg-0.mb-3 Por ello, es el modelo más preciso que existe, dado que, como ya se ha dicho, aborda todos los elementos relevantes en el cálculo del costo de producción de un bien o servicio, gracias a ello su aplicación es ideal para ser usarlo en líneas productivas que no son susceptibles de variaciones significativas en el tiempo, puesto que bajo este sistema una variación significativa en estas condiciones obligaría a recalcular dichas estimaciones para cada producto.              
             .col-md-6

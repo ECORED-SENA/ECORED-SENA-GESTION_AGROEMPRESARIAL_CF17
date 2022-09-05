@@ -151,7 +151,7 @@
             .col-lg-6.col-8
               img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img13.png")
             .col-lg-6.col-12
-              p.mb-5 mpleador está obligado a pagar a su empleado o empleados, la prestación social denominada prima de servicios que corresponderá a 30 días de salario por año, el cual se reconocerá en dos pagos, así la mitad máximo el 30 de junio y la otra mitad a más tardar los primeros veinte días de diciembre. 
+              p.mb-5 El empleador está obligado a pagar a su empleado o empleados, la prestación social denominada prima de servicios que corresponderá a 30 días de salario por año, el cual se reconocerá en dos pagos, así la mitad máximo el 30 de junio y la otra mitad a más tardar los primeros veinte días de diciembre. 
               p.mb-5 u reconocimiento se hará por todo el semestre trabajado o proporcionalmente al tiempo trabajado.
               p.mb-0 (Código Sustantivo del Trabajo, 1950 Artículo 306).
         div(titulo="Intereses a las cesantías ")
@@ -166,7 +166,7 @@
             .col-lg-6.col-8
               img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img15.png")
             .col-lg-6.col-12
-              p.mb-5 TCorresponde a un elemento salarial diferente a los anteriores, puesto que su valor no depende del salario, sino que se establece un valor fijo anualmente. 
+              p.mb-5 Corresponde a un elemento salarial diferente a los anteriores, puesto que su valor no depende del salario, sino que se establece un valor fijo anualmente. 
               p.mb-5 Como su nombre lo indica es un auxilio para cubrir los costos de desplazamiento del empleado.
               p.mb-0 Para el año 2022 su valor es de $ 117.452 según lo dispuesto en el Decreto 1785 de 2020, expedido por el Ministerio del Trabajo, y su pago es exclusivo de los trabajadores que devenguen menos de dos salarios mínimos mensuales legales vigentes (SMMLV).
         div(titulo="Aportes parafiscales ")

@@ -103,7 +103,14 @@
     p.mb-4 Mediante un sistema de control de inventarios es posible saber cuánta mercancía se tiene en determinado momento y qué productos están por acabarse (eventual quiebre de <i>stock</i>), así como determinar los niveles de rotación de los productos e identificar aquellos próximos a cumplir su fecha de caducidad.
     p.mb-5 Por lo anterior, es necesario que se elijan los sistemas y procedimientos que mejor se adaptan a las exigencias del inventario de cada empresa para gestionar máximos y mínimos, tener un control de entradas y salidas, además de crear estadísticas que permitan calcular las existencias en el futuro con el apoyo de análisis y registros de rendimiento; en atención a esto, se pueden encontrar los siguientes sistemas de control de inventarios:
 
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-0(:datos="datosSlyder")
+
+    Separador
+
+    #t_3_2.titulo-segundo.color-acento-contenido
+      h2 3.2 Aplicación 
+
+    p.mb-5 Además de seleccionar el sistema de control de inventario que mejor se adapte a las necesidades, es importante reconocer y establecer las características respecto al tipo de inventario que maneja, esto implica prestar especial atención a aspectos como los que puede observar en el siguiente recurso:
 
     TabsA.color-acento-contenido.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
