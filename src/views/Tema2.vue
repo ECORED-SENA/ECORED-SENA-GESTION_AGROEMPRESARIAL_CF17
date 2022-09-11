@@ -256,7 +256,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
-        p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de kárdex; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de kárdex, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
+        p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de <i>kardex</i>; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de <i>kardex</i>, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
@@ -397,7 +397,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         p.mb-0 <b>Tabla 2</b>
-        p.mb-4 <i>Hoja de kárdex bajo sistema promedio ponderado</i>
+        p.mb-4 <i>Hoja de <i>kardex</i> bajo sistema promedio ponderado</i>
         .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")                
           table
             tr(style="background-color: #ced371;")              

@@ -182,7 +182,7 @@
               img.mb-lg-0.mb-3(src="@/assets/curso/tema1/img13.png")
             .col-lg-6.col-12
               p.mb-5 El empleador está obligado a pagar a su empleado o empleados, la prestación social denominada prima de servicios que corresponderá a 30 días de salario por año, el cual se reconocerá en dos pagos, así la mitad máximo el 30 de junio y la otra mitad a más tardar los primeros veinte días de diciembre. 
-              p.mb-5 u reconocimiento se hará por todo el semestre trabajado o proporcionalmente al tiempo trabajado.
+              p.mb-5 Su reconocimiento se hará por todo el semestre trabajado o proporcionalmente al tiempo trabajado.
               p.mb-0 (Código Sustantivo del Trabajo, 1950 Artículo 306).
         div(titulo="Intereses a las cesantías ")
           .row.justify-content-center.px-lg-5.p-0

@@ -164,7 +164,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Decreto 2663 de 1950. [Código Sustantivo del Trabajo]. Esta edición se trabajó sobre la publicación de la Edición Oficial del Código Sustantivo del Trabajo, con sus modificaciones, ordenada por el artículo 46 del Decreto Ley 3743 de 1950, la cual fue publicada en el Diario Oficial No 27.622 del 7 de junio de 1951, compilando los Decretos 2663 y 3743 de 1950 y 905 de 1951. Junio 7 de 1950. ',
+        'Decreto 2663 de 1950. [Código Sustantivo del Trabajo]. Esta edición se trabajó sobre la publicación de la Edición Oficial del Código Sustantivo del Trabajo, con sus modificaciones, ordenada por el artículo 46 del Decreto Ley 3743 de 1950, la cual fue publicada en el Diario Oficial No 27.622 del 7 de junio de 1951, compilando los Decretos 2663 y 3743 de 1950 y 905 de 1951. Junio 7 de 1950.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=33104#:~:text=Nadie%20puede%20impedir%20el%20trabajo,se%20prevean%20en%20la%20ley',
     },
@@ -185,6 +185,12 @@ export default {
         'Ley 27 de 1974. Por la cual se dictan normas sobre la creación y sostenimiento de Centros de atención integral de Preescolar, para los hijos de empleados y trabajadores de los sectores públicos y privados. Diciembre 20 de 1974. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=10580#:~:text=Se%20dictan%20normas%20sobre%20la,1%20a%204',
+    },
+    {
+      referencia:
+        'Ministerio del Trabajo. (2019). Cotización a la seguridad social – aportes. Ministerio del Trabajo.',
+      link:
+        'https://www.mintrabajo.gov.co/empleo-y-pensiones/empleo/subdireccion-de-formalizacion-y-proteccion-del-empleo/formalizacion-laboral/cotizacion-a-la-seguridad-social-aportes',
     },
   ],
   glosario: [
