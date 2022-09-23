@@ -8,7 +8,7 @@
         span 3
       h1 Inventarios 
 
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#7b7e43" data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.png')})`}"
         )

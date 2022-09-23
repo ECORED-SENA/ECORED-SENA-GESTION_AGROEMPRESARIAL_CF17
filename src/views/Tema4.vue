@@ -163,7 +163,7 @@
               p.mb-0 <b>Tiempos</b> de recuperación de la inversión.
       .col-lg-3.col-12
         .tarjeta-avatar(style="padding-top:60px")
-          img(style="width:113px" src='@/assets/curso/tema4/img08.svg')          
+          img(style="width:113px" src='@/assets/curso/tema4/img09.svg')          
           .tarjeta.w-100(style="background-color:#ffd265")
             .p-4.pt-3.py-5           
               p.mb-0 <b>Valor económico</b> del proyecto.<br><br>
@@ -256,23 +256,23 @@
     SlyderF.mb-5(columnas="col-12 col-lg-6" data-aos="fade-left")
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
-          .col-4
+          .col-4.px-4
             img(src='@/assets/curso/tema4/img19.svg')
         h4 De liquidez:
         p.mb-4 Indicador que hace referencia a la capacidad que una organización tiene para cumplir con sus obligaciones a corto plazo de forma oportuna. 
-        p.mb-0 Estos indicadores miden tanto la cantidad de dinero en efectivo disponible como las capacidades de la empresa para generarlo.<br><br>
+        p.mb-0 Estos indicadores miden tanto la cantidad de dinero en efectivo disponible como las capacidades de la empresa para generarlo.
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-4
+          .col-4.px-4
             img(src='@/assets/curso/tema4/img20.svg')
         h4 De eficiencia: 
         p.mb-4 Este indicador permite medir la productividad de la empresa, tomando como elemento de juicio su capacidad para administrar los recursos. 
-        p.mb-0 En este sentido, evalúa la efectividad con la que se ejecutaron los procesos, principalmente los asociados a la operación misma de la empresa.<br><br>
+        p.mb-0 En este sentido, evalúa la efectividad con la que se ejecutaron los procesos, principalmente los asociados a la operación misma de la empresa.
 
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-4
+          .col-4.px-4
             img(src='@/assets/curso/tema4/img21.svg')
         h4 De endeudamiento: 
         p.mb-4 Indicador que busca medir la proporción de participación de los acreedores presentes en el financiamiento de la empresa.
@@ -280,10 +280,10 @@
 
       .tarjeta.color-acento-contenido.p-4
         .row.justify-content-center.mb-3
-          .col-4
+          .col-4.px-4
             img(src='@/assets/curso/tema4/img22.svg')
         h4 De rentabilidad: 
-        p.mb-0 Bajo este indicador se determina la efectividad del administrador para transformar los costos, gastos e inversiones, en utilidades para la empresa, información que ofrece una idea respecto a las capacidades de la compañía para mantenerse operativa en el tiempo, generando valor.<br><br><br>
+        p.mb-0 Bajo este indicador se determina la efectividad del administrador para transformar los costos, gastos e inversiones, en utilidades para la empresa, información que ofrece una idea respecto a las capacidades de la compañía para mantenerse operativa en el tiempo, generando valor.
 
     p.mb-5 A modo de síntesis, se presenta algunos de los indicadores más importantes y su interpretación, catalogados de acuerdo con las categorías descritas anteriormente:
 
@@ -364,22 +364,24 @@
             td.text-center.br.p-3 Utilidad neta / Patrimonio
             td.p-3(colspan=6) Mide la utilidad generada en relación con los aportes efectuados por sus propietarios.
     
-    .tarjeta.color-principal.p-3(style="background-color:#f4f6dd" data-aos="fade-left")
-        .row.justify-content-around.align-items-center
-          .col-lg-2.col-6.d-flex.justify-content-center
-            img.mb-lg-0.mb-3(style="width:70px" src="@/assets/curso/tema4/img23.svg")
-          .col-10
-            .row.justify-content-center.align-items-center
-              .col-lg-9.col-12.d-flex.align-items-center
-                div
-                  p.mb-lg-0.mb-3 <b>Para aprender más sobre indicadores financieros se invita a revisar la Web del Instituto Nacional de Contadores Públicos de Colombia</b>
-              .col-lg-3.col-6.d-flex.justify-content-center.p-0
-                a.boton.color-acento-botones.p-0.py-2(style="width:111px; background-color:#fcc15a" :href="obtenerLink('downloads/7-if.pdf')" target="_blank")
-                  .row.w-100.m-0
-                    .col-6.p-0.px-3.d-flex.align-items-center                  
-                      p.mb-0(style="color:#12263F") Ver
-                    .col-6.p-0.px-3.d-flex.justify-content-end.align-items-center                  
-                      i.fas.fa-eye.fa-lg(style="color:#12263F")
+    .row.justify-content-center.mb-0
+      .col-lg-10.col-12
+        .tarjeta.color-principal.p-3(style="background-color:#f4f6dd" data-aos="fade-left")
+            .row.justify-content-around.align-items-center
+              .col-lg-2.col-6.d-flex.justify-content-center
+                img.mb-lg-0.mb-3(style="width:70px" src="@/assets/curso/tema4/img23.svg")
+              .col-10
+                .row.justify-content-center.align-items-center
+                  .col-lg-9.col-12.d-flex.align-items-center
+                    div
+                      p.mb-lg-0.mb-3 <b>Para aprender más sobre indicadores financieros se invita a revisar la Web del Instituto Nacional de Contadores Públicos de Colombia</b>
+                  .col-lg-3.col-6.d-flex.justify-content-center.p-0
+                    a.boton.color-acento-botones.p-0.py-2(style="width:111px; background-color:#fcc15a" :href="obtenerLink('downloads/7-if.pdf')" target="_blank")
+                      .row.w-100.m-0
+                        .col-6.p-0.px-3.d-flex.align-items-center                  
+                          p.mb-0(style="color:#12263F") Ver
+                        .col-6.p-0.px-3.d-flex.justify-content-end.align-items-center                  
+                          i.fas.fa-eye.fa-lg(style="color:#12263F")
     Separador
 
     #t_4_3.titulo-segundo.color-acento-contenido

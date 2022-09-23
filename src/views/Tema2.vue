@@ -98,9 +98,9 @@
 
     p.mb-5 En términos generalmente aceptados, dada su naturaleza y teniendo en cuenta los elementos que los conforman, es posible clasificar los costos de producción bajo los siguientes criterios:
 
-    ImagenInfograficaB.color-acento-botones.mb-0(data-aos="fade-left")
+    ImagenInfograficaB.color-acento-botones.mb-0
       template(v-slot:imagen)
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img10.svg')          
 
       div(x="10.65%" y="34%" tooltip="Relación con Producción" numero="+")        
@@ -504,19 +504,19 @@
     .row.justify-content-center.mb-5(data-aos="fade-left")      
       .col-lg-8.col-12
         .row.justify-content-center
-          .col-lg-4.col-12
+          .col-lg-4.col-12.pb-lg-0.pb-3
             .tarjeta-avatar(style="padding-top:60px")
               img(style="width:113px" src='@/assets/curso/tema2/img23.svg')          
               .tarjeta.w-100.fondo5.d-flex.align-items-center
                 .p-4.pt-3.py-5.w-100           
                   p.mb-0.text-center <b>El salario básico.</b>
-          .col-lg-4.col-12
+          .col-lg-4.col-12.pb-lg-0.pb-3
             .tarjeta-avatar.mb-lg-0.mb-3(style="padding-top:60px")
               img(style="width:113px" src='@/assets/curso/tema2/img24.svg')          
               .tarjeta.w-100.fondo5.d-flex.align-items-center
                 .p-4.pt-3.py-5.w-100                      
                   p.mb-0.text-center <b>Prestaciones sociales. </b>
-          .col-lg-4.col-12
+          .col-lg-4.col-12.pb-lg-0.pb-3
             .tarjeta-avatar(style="padding-top:60px")
               img(style="width:113px" src='@/assets/curso/tema2/img25.svg')          
               .tarjeta.w-100.fondo5.d-flex.align-items-center
@@ -805,12 +805,12 @@
                 .col-lg-9.col-12.d-flex.align-items-center
                   div
                     p.mb-lg-0.mb-3 Para profundizar en el tema sobre costos de producción se invita a ver el video ¨<b>Sistemas de costeo</b>¨ realizado por el Ecosistema de <b>Recursos Educativos Digitales SENA</b>  
-                .col-lg-3.col-6.d-flex.justify-content-center.p-0
+                .col-lg-3.col-7.d-flex.justify-content-center.p-0
                   a.boton.color-acento-botones.p-0.py-2(style="width:140px; background-color:#fcc15a" href="https://www.youtube.com/watch?v=E7yMcPXQ7Ps" target="_blank")
                     .row.w-100.m-0
-                      .col-lg-9.col-12.p-0.px-3.d-flex.align-items-center              
+                      .col-lg-9.col-9.p-0.px-3.d-flex.align-items-center              
                         p.mb-0(style="color:#12263F") Ver Video
-                      .col-lg-3.col-12.p-0.px-3.d-flex.justify-content-center.align-items-center
+                      .col-lg-3.col-3.p-0.px-3.d-flex.justify-content-center.align-items-center
                         i.fas.fa-circle-play.fa-play(style="color:#12263F")
 
         p.mb-0 Ahora bien, para reforzar su aprendizaje se invita a revisar la siguiente videoclase que trata la estimación de costos de producción: 

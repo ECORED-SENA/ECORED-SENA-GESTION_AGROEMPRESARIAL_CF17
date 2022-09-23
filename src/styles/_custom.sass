@@ -7,6 +7,24 @@ figcaption
   background-color: #e8e8e8 !important
   font-weight: normal !important
 
+.banner-principal__img
+  animation: float1 5s ease-in-out infinite alternate
+
+
+
+  
+
+@keyframes float1
+  0%
+    transform: translateY(15px)
+
+  100%
+    transform: translateY(-15px)
+
+@keyframes spin 
+    100% 
+        transform: rotate(0);
+
 .titulo-sexto
   border-left: 5px solid
   padding: 8px 0 8px 15px;
@@ -80,6 +98,19 @@ figcaption
     box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.3);
 
 .tema4 
+  .slyder-f
+    // .horizontal-scroll__wrapper
+    //   padding-left: 10px
+    //   padding-right: 10px
+    .horizontal-scroll
+      align-items: stretch
+    .slyder-f__slyde
+      display: flex
+      // padding-left: 10px
+      // padding-right: 10px
+      // padding-bottom: 12px !important
+      // padding-top: 10px !important
+
   .tarjeta1
     border-radius: 20px
     background-color: #ffffff
@@ -117,9 +148,11 @@ figcaption
 
 .tema1
 
-  // @media(min-width: 800px)
-  //   .div1
-  //     width: 707px
+  @media(min-width: 720px)
+    .img-infografica__card, .img-infografica-b__card
+      position: absolute;
+      width: 600px;
+  
     
 
   .img-infografica__item__numero
@@ -166,7 +199,7 @@ figcaption
       width: 134%
       height: 100%
       margin: 0 -5rem
-      background-image: url("../assets/curso/tema1/fondo1.png")
+      background-image: url("../assets/curso/tema1/fondo2.png")
       //background-color: red
       background-size: 100% 100%
       background-repeat: no-repeat
