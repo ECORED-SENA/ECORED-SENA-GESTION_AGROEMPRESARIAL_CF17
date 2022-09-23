@@ -430,7 +430,7 @@
     p.mb-5 Bajo estos lineamientos pueden aplicarse acciones de mejora en otros aspectos que, aunque son ajenos a la producción, si se ven afectados por ella, por ejemplo: 
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-1.col-6.py-3
+      .col-lg-1.col-3.py-3
         img.mb-lg-0.mb-3(src="@/assets/curso/tema4/img29.svg")
       .col-lg-9.col-12.py-3
         p.mb-0 <b>Los indicadores de liquidez</b> pueden mostrar señales de alerta en el sentido que, si el capital de trabajo es muy reducido, la disponibilidad de dinero para adquirir materia prima a futuro se puede ver comprometida. Este tipo de escenarios deben ser tenidos en cuenta en la definición de estrategias de producción, donde la interrupción del proceso productivo puede ser una consecuencia de una mala gestión de otra área.
@@ -439,7 +439,7 @@
       .col-lg-10.col-12(style="border-bottom:3px solid #A3314F")              
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1.col-6.py-3
+      .col-lg-1.col-3.py-3
         img.mb-lg-0.mb-3(src="@/assets/curso/tema4/img30.svg")
       .col-lg-9.col-12.py-3
         p.mb-0 <b>Los indicadores de endeudamiento</b> por su parte pueden relacionarse con los de liquidez, de manera que contribuyen a evaluar alternativas de financiamiento cuando no se cuenta con el dinero suficiente para mantener la operación. Algunas acciones que integradas pueden aportar a mitigar este tipo de problemáticas son:
