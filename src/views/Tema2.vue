@@ -11,7 +11,7 @@
     p.mb-5 Se definen como todo aquel tipo de inversión en el que incurren las organizaciones para mantener sus proyectos y sobre la que se espera obtener algún tipo de estipendio a corto plazo, dichas operaciones se ejecutan mediante la adquisición de materias primas que serán transformadas y almacenadas como inventario, el cual será posteriormente puesto a la venta. 
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-5.col-12
+      .col-lg-5.col-1
         img.mb-lg-0.mb-3(src="@/assets/curso/tema2/img01.png")
       .col-lg-5.col-12.d-flex.p-0
         .fondo1.w-100.px-lg-4.px-0.py-lg-4.py-0
@@ -122,7 +122,7 @@
       #t_2_3.titulo-segundo.color-acento-contenido
         h2 2.3 Metodología
 
-      p.mb-5 Los sistemas existentes para determinar el costo de la producción de bienes constituyen herramientas administrativas, cuya labor consiste en definir de la manera más acertada posible el valor de producción de cualquier bien o servicio. Entre este tipo de herramientas se encuentran las siguientes:
+      p.mb-5.mx-3 Los sistemas existentes para determinar el costo de la producción de bienes constituyen herramientas administrativas, cuya labor consiste en definir de la manera más acertada posible el valor de producción de cualquier bien o servicio. Entre este tipo de herramientas se encuentran las siguientes:
 
       TabsB.color-acento-contenido.mb-0(data-aos="fade-right")
         .py-5.px-5(titulo="Herramienta de costo basado en<br>actividades (ABC) " :icono="require('@/assets/curso/tema2/img11.svg')")
@@ -153,10 +153,10 @@
               ul.lista-ul.mb-4
                 li.mb-0 
                   i.lista-ul__vineta
-                  p.mb-0 Número de unidades producidas en un tiempo determinado para cada máquina o tipo de fabricante o 
+                  p.mb-0 Número de unidades producidas en un tiempo determinado para cada máquina o tipo de fabricante o.
                 li 
                   i.lista-ul__vineta
-                  p.mb-0 las unidades elaboradas por cada operario por unidad de tiempo.
+                  p.mb-0 Las unidades elaboradas por cada operario por unidad de tiempo.
               p.mb-4 Para con esta información, calcular y establecer un nivel de producción promedio aceptable para la administración de acuerdo con un periodo de tiempo definido. 
               p.mb-mb-lg-0.mb-3 Por ello, es el modelo más preciso que existe, dado que, como ya se ha dicho, aborda todos los elementos relevantes en el cálculo del costo de producción de un bien o servicio, gracias a ello su aplicación es ideal para ser usarlo en líneas productivas que no son susceptibles de variaciones significativas en el tiempo, puesto que bajo este sistema una variación significativa en estas condiciones obligaría a recalcular dichas estimaciones para cada producto.              
             .col-md-6
@@ -256,10 +256,12 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.col-12
-        p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de <i>kardex</i>; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de <i>kardex</i>, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
+        p.mb-0 Es importante resaltar que para hacer uso de cualquiera de los sistemas descritos inicialmente es necesario disponer de la hoja de <i><i>kárdex</i></i>; puesto que en esta <b>se lleva el registro de las compras efectuadas por cada tipo de materia prima en orden cronológico</b>, y de esta misma forma son enviadas al proceso de producción. A continuación se presentan dos hojas de <i><i>kárdex</i></i>, una diligenciada bajo la metodología PEPS y otra bajo promedio ponderado:
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
+        p.mb-0 <b>Tabla 1</b>
+        p.mb-4 <i>Hoja de <i><i>kárdex</i></i> bajo sistema PEPS</i>
         .tabla-b.color-acento-contenido              
           table
             tr(style="background-color: #a3314f;")              
@@ -294,38 +296,38 @@
             tr
               td.br.bb.p-2 <b>Inventario inicial</b>
               td.text-center.br.bb.p-2 10.000
-              td.text-center.br.bb.p-2 10.000
               td.text-center.br.bb.p-2 30
+              td.text-center.br.bb.p-2 10.000
               td.text-center.br.bb.p-2 300.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 30
-              td.text-center.bb.p-2 495.000
+              td.text-center.bb.p-2 300.000
 
             tr
               td.br.bb.p-2 <b>Compra 3 de marzo</b>
               td.text-center.br.bb.p-2 13.000
-              td.text-center.br.bb.p-2 13.000
               td.text-center.br.bb.p-2 15
+              td.text-center.br.bb.p-2 13.000
               td.text-center.br.bb.p-2 195.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 45
-              td.text-center.bb.p-2 870.000
+              td.text-center.bb.p-2 495.000
 
             tr
               td.br.bb.p-2 <b>Compra 12 de marzo</b>
+              td.text-center.br.bb.p-2 15.000
+              td.text-center.br.bb.p-2 25
+              td.text-center.br.bb.p-2 15.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
-              td.text-center.br.bb.p-2 
-              td.text-center.br.bb.p-2 
-              td.text-center.br.bb.p-2 
-              td.text-center.br.bb.p-2 
-              td.text-center.bb.p-2 
+              td.text-center.br.bb.p-2 70
+              td.text-center.bb.p-2 870.000
 
             tr
               td.br.bb.p-2(rowspan=3) <b>Orden de producción 11 (20 unidades)</b>
@@ -397,7 +399,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10.col-12
         p.mb-0 <b>Tabla 2</b>
-        p.mb-4 <i>Hoja de <i>kardex</i> bajo sistema promedio ponderado</i>
+        p.mb-4 <i>Hoja de <i><i>kárdex</i></i> bajo sistema promedio ponderado</i>
         .tabla-b.color-acento-contenido.mb-5(data-aos="fade-right")                
           table
             tr(style="background-color: #ced371;")              
@@ -432,8 +434,8 @@
             tr
               td.br.bb.p-2 <b>Inventario inicial</b>
               td.text-center.br.bb.p-2 10.000
-              td.text-center.br.bb.p-2 10.000
               td.text-center.br.bb.p-2 30
+              td.text-center.br.bb.p-2 10.000
               td.text-center.br.bb.p-2 300.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
@@ -444,8 +446,8 @@
             tr
               td.br.bb.p-2 <b>Compra 3 de marzo</b>
               td.text-center.br.bb.p-2 11.000
-              td.text-center.br.bb.p-2 13.000
               td.text-center.br.bb.p-2 15
+              td.text-center.br.bb.p-2 13.000
               td.text-center.br.bb.p-2 195.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
@@ -456,8 +458,8 @@
             tr
               td.br.bb.p-2 <b>Compra 12 de marzo</b>
               td.text-center.br.bb.p-2 12.429
-              td.text-center.br.bb.p-2 15.000
               td.text-center.br.bb.p-2 25
+              td.text-center.br.bb.p-2 15.000
               td.text-center.br.bb.p-2 375.000
               td.text-center.br.bb.p-2 
               td.text-center.br.bb.p-2 
@@ -552,7 +554,7 @@
                     td.text-center.bb.p-2 <b>4,17%</b>
 
                   tr                    
-                    td.text-center.br.bb.p-2 <b>Cesantias</b>
+                    td.text-center.br.bb.p-2 <b><i>Cesantías</i></b>
                     td.text-center.bb.p-2 <b>8,33%</b>
 
                   tr                    
@@ -560,7 +562,7 @@
                     td.text-center.bb.p-2 <b>8,33%</b>
 
                   tr                    
-                    td.text-center.br.bb.p-2 <b>Intereses a las cesantias</b>
+                    td.text-center.br.bb.p-2 <b>Intereses a las <i>cesantías</i></b>
                     td.text-center.bb.p-2 <b>1%</b>
 
                   tr                    
@@ -647,13 +649,13 @@
                     td.text-center.br.p-1 Vacaciones
                     td.text-center.p-1 41.667
                   tr                    
-                    td.text-center.br.p-1 Cesantias
+                    td.text-center.br.p-1 <i>Cesantías</i>
                     td.text-center.p-1 93.097
                   tr                    
                     td.text-center.br.p-1 Prima de servicios
                     td.text-center.p-1 93.097
                   tr                    
-                    td.text-center.br.p-1 Intereses a las cesantias
+                    td.text-center.br.p-1 Intereses a las <i>cesantías</i>
                     td.text-center.p-1 11.171
                   tr                    
                     td.text-center.br.p-1 Subtotal prestaciones
@@ -759,6 +761,8 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-right") 
       .col-lg-5.col-12
+        p.mb-0 <b>Tabla 6</b>
+        p.mb-4 <i>Hoja de producción con horas de trabajo</i>
         .tabla-b.color-acento-contenido.px-2.mb-lg-0.mb-3              
                 table(style="background-color:white; min-width:100px")
                   tr(style="background-color: #9ea257;")              
@@ -816,8 +820,8 @@
         p.mb-0 Ahora bien, para reforzar su aprendizaje se invita a revisar la siguiente videoclase que trata la estimación de costos de producción: 
 
     figure(data-aos="fade-right")
-      .video        
-        iframe(width="789" height="444" src="https://www.youtube.com/embed/uyvsqO_0kvw" title="Costos de producción y análisis financiero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video            
+        iframe(width="1519" height="594" src="https://www.youtube.com/embed/jDfhuttALfo" title="Estimación de costos de producción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>

@@ -323,17 +323,12 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Jhon Fredy Rodriguez Castiblanco',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

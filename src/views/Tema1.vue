@@ -86,7 +86,7 @@
       .div1.p-4(x="42.45%" y="77.55%" numero="+" )
         .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")
           p.mb-1 <b>A término indefinido: </b>
-          p.mb-0 Se dan cuando una persona lleva a cabo la parte práctica de su formación en una empresa autorizada. Así, existe un contrato conveniente para ambas partes, puesto que la empresa cuenta con un empleado a un menor costo y el trabajador cumple con uno de los requisitos para poder obtener su titulación. La duración del contrato de aprendizaje no puede ser superior a dos años, mientras que la remuneración que recibe el empleado no puede ser inferior al 50% de un salario mínimo mensual legal vigente durante su etapa lectiva o del 75% durante la etapa práctica.
+          p.mb-0 Para este caso, los contratos no cuentan con un periodo de finalización estipulado de forma expresa, por lo que el trabajo continuará hasta que alguna de las partes quiera finalizar la relación laboral.  En este tipo de contratos no es obligatorio el preaviso, por lo que se puede dar terminación sin necesidad de este requisito formal. Además, es posible suscribir este de forma verbal o escrita, por lo que lo configura como uno de los sistemas más utilizados en el mercado colombiano.
 
       .div1.p-4(x="63.6%" y="77.5%" numero="+")
         .tarjeta.color-secundario.sombra1.p-3(style="background-color:#e8e8e8")

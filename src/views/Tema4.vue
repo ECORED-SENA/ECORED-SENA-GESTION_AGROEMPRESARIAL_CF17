@@ -311,7 +311,7 @@
             td.text-center.br.bb.p-3 (Activo corriente - inventarios) / pasivo corriente
             td.bb.p-3(colspan=6) Muestra la capacidad de la empresa para librar las deudas de corto plazo sin requerir la venta de sus inventarios.
           tr
-            td.text-center.br.p-3
+            td.text-center.br.p-3.bb
             td.text-center.br.bb.p-3 Capital de trabajo
             td.text-center.br.bb.p-3 Activo corriente - pasivo corriente
             td.bb.p-3(colspan=6) Revela si los recursos del corto plazo cubren los pasivos de corto plazo, así como los disponibles para mantener la operación, una vez cubiertas las deudas.
@@ -327,7 +327,7 @@
             td.text-center.br.bb.p-3 Compras del periodo / proveedores promedio
             td.bb.p-3(colspan=6) Revela cuántas veces se pagan los proveedores en el ejercicio.
           tr
-            td.text-center.br.p-3
+            td.text-center.br.p-3.bb
             td.text-center.br.bb.p-3 Rotación de inventarios
             td.text-center.br.bb.p-3 Costo de mercancías vendidas / inventario promedio
             td.bb.p-3(colspan=6) Indica el número de veces en el que los inventarios se convierten en efectivo o en cuentas por cobrar.
@@ -343,7 +343,7 @@
             td.text-center.br.bb.p-3 Pasivo total / Patrimonio
             td.bb.p-3(colspan=6) Muestra la proporción de la deuda que corresponde a terceros en relación con los propietarios de la empresa.
           tr
-            td.text-center.br.p-3
+            td.text-center.br.p-3.bb
             td.text-center.br.bb.p-3 Carga financiera
             td.text-center.br.bb.p-3 Gastos financieros / Ventas netas
             td.bb.p-3(colspan=6) Indica cuántos ingresos tuvieron que destinarse a pagar los costos de la financiación. A menor valor, mejores políticas de financiamiento.
@@ -374,7 +374,7 @@
                 .row.justify-content-center.align-items-center
                   .col-lg-9.col-12.d-flex.align-items-center
                     div
-                      p.mb-lg-0.mb-3 <b>Para aprender más sobre indicadores financieros se invita a revisar la Web del Instituto Nacional de Contadores Públicos de Colombia</b>
+                      p.mb-lg-0.mb-3 Para aprender más sobre indicadores financieros se invita el archivo ¨<b>Principales indicadores financieros y de gestión</b>¨ realizado por el  <b>Instituto Nacional de Contadores Públicos</b>
                   .col-lg-3.col-6.d-flex.justify-content-center.p-0
                     a.boton.color-acento-botones.p-0.py-2(style="width:111px; background-color:#fcc15a" :href="obtenerLink('downloads/7-if.pdf')" target="_blank")
                       .row.w-100.m-0
